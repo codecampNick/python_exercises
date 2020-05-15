@@ -1,6 +1,7 @@
 import logging
 import sys
 
+#based on https://stackoverflow.com/questions/50714316/how-to-use-logging-getlogger-name-in-multiple-modules
 def setup_general_logger(log_name):
     # create and configure main logger
     logger = logging.getLogger(log_name)
